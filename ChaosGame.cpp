@@ -106,10 +106,10 @@ int main()
 
 		for(int i = 0; i < points.size(); i++)
 		{
-			CircleShape circ(1);
-			circ.setPosition(Vector2f(points[i].x, points[i].y));
-			circ.setFillColor(Color::Red);
-			window.draw(circ);
+		     CircleShape circ(1);
+		     circ.setPosition(Vector2f(points[i].x, points[i].y));
+		     circ.setFillColor(Color::Red);
+		     window.draw(circ);
 		}
 
 		window.display();
